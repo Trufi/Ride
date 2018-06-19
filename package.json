@@ -1,0 +1,22 @@
+{
+  "name": "ride",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trufi/typescript-boilerplate.git"
+  },
+  "author": {
+    "name": "Mstislav Zhivodkov",
+    "email": "stevemyz@gmail.com",
+    "url": "https://trufi.github.io/"
+  },
+  "scripts": {
+    "test": "eslint src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
