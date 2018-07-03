@@ -1,11 +1,11 @@
-import Mapbox from 'mapbox-gl-vue';
-
 import Vue from 'vue';
+import App from './components/App.vue';
+import store from './store';
 
-const app = new Vue({
+/* eslint-disable no-new */
+new Vue({
     el: '#app',
-    data: {
-        message: 'Hello Vue!',
-    },
-    components: {Mapbox},
+    store,
+    template: '<App/>',
+    components: { App },
 });
